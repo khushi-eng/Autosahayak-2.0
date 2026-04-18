@@ -1,8 +1,8 @@
-INFO:     Started server process [4568]
+INFO:     Started server process [29116]
 INFO:     Waiting for application startup.
-2026-04-19 04:43:14,643 | INFO | main | Autosahayak 2.0 started
+2026-04-19 05:21:52,291 | INFO | main | Autosahayak 2.0 started
 INFO:     Application startup complete.
-ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
-INFO:     Waiting for application shutdown.
-2026-04-19 04:43:14,664 | INFO | main | Autosahayak 2.0 stopped
-INFO:     Application shutdown complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56555 - "GET /ui/cases/1/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56556 - "POST /ui/cases/1/documents/generate HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:56557 - "GET /ui/cases/1/documents?notice=AI-generated%20document%20added%20to%20repository. HTTP/1.1" 200 OK

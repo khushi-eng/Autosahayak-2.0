@@ -528,6 +528,7 @@ async def upload_case_document_ui(
 
 @app.post("/ui/cases/{case_id}/documents/generate")
 def generate_case_document_ui(
+    request: Request,
     case_id: int,
     document_type: str = Form(...),
     client_name: str = Form(...),
@@ -542,19 +543,64 @@ def generate_case_document_ui(
     if not case:
         return HTMLResponse(content="<h2>Case not found</h2>", status_code=404)
 
-    draft = generate_legal_draft(document_type, case, client_name, opponent_name, facts, demand, authority, additional_notes)
-    document = Document(case_id=case.id, document_type=document_type, file_path=None, content=draft)
+    case_data = {
+        "id": case.id,
+        "case_number": case.case_number,
+        "case_type": case.case_type,
+        "client_name": case.client_name,
+        "client_email": case.client_email,
+        "court_name": case.court_name,
+    }
+    draft = generate_legal_draft(
+        document_type,
+        case,
+        client_name=client_name,
+        opponent_name=opponent_name,
+        facts=facts,
+        demand=demand,
+        authority=authority,
+        additional_notes=additional_notes,
+    )
+    document = Document(case_id=case_data["id"], document_type=document_type, file_path=None, content=draft)
     db.add(document)
-    db.commit()
+    try:
+        db.commit()
+    except OperationalError:
+        db.rollback()
+        draft_state = _build_draft_state(
+            case,
+            document_type=document_type,
+            client_name=client_name,
+            opponent_name=opponent_name,
+            facts=facts,
+            demand=demand,
+            authority=authority,
+            additional_notes=additional_notes,
+            generated_draft=draft,
+        )
+        return templates.TemplateResponse(
+            name="case_documents.html",
+            context={
+                "request": request,
+                "case": case_data,
+                "documents": [],
+                "document_summary": None,
+                "notice": "Document generated, but it could not be saved because the database is temporarily unavailable.",
+                "draft_state": draft_state,
+                "document_type_options": DOCUMENT_TYPE_CONFIG,
+                "active_document_config": _get_document_config(document_type),
+            },
+            status_code=200,
+        )
     db.refresh(document)
-    vector_store.add_text(draft, {"case_id": case.id, "document_id": document.id, "document_type": document_type})
+    vector_store.add_text(draft, {"case_id": case_data["id"], "document_id": document.id, "document_type": document_type})
     log_activity(
         db,
         action="AI draft generated",
-        details=f"Generated {document_type} for case {case.case_number}.",
-        case_id=case.id,
+        details=f"Generated {document_type} for case {case_data['case_number']}.",
+        case_id=case_data["id"],
     )
-    return RedirectResponse(url=f"/ui/cases/{case.id}/documents?notice=AI-generated document added to repository.", status_code=303)
+    return RedirectResponse(url=f"/ui/cases/{case_data['id']}/documents?notice=AI-generated document added to repository.", status_code=303)
 
 
 @app.get("/ui/cases/{case_id}/documents/generate")

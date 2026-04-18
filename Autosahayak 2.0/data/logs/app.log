@@ -1455,3 +1455,131 @@ WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.dea
 2026-04-19 05:04:53,546 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 401 Unauthorized"
 2026-04-19 05:05:00,879 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 401 Unauthorized"
 2026-04-19 05:05:03,891 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 401 Unauthorized"
+2026-04-19 05:17:43,736 | INFO | main | Autosahayak 2.0 started
+2026-04-19 05:17:45,205 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 05:18:16,378 | INFO | main | Autosahayak 2.0 started
+2026-04-19 05:18:19,323 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 05:18:20,916 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:48:18.049854', '2026-04-19 23:48:18.049854')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:48:18.049854', '2026-04-19 23:48:18.049854')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 05:18:38,023 | INFO | main | Autosahayak 2.0 started
+2026-04-19 05:18:39,543 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/documents/generate "HTTP/1.1 200 OK"
+2026-04-19 05:18:39,544 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 05:18:42,433 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:48:40.907378', '2026-04-19 23:48:40.907378')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:48:40.907378', '2026-04-19 23:48:40.907378')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 05:18:47,586 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 401 Unauthorized"
