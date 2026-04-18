@@ -1,0 +1,30 @@
+{% if notice %}
+<section class="card notice">
+    <strong>{{ notice }}</strong>
+</section>
+{% endif %}
+
+{% if prediction %}
+<section class="card">
+    <p class="eyebrow">Outcome Prediction</p>
+    <h3>{{ prediction.success_probability }}% Success Probability</h3>
+    <p>{{ prediction.summary }}</p>
+    <p class="muted">{{ prediction.risk_analysis }}</p>
+</section>
+{% endif %}
+
+{% if latest_research_note %}
+<section class="card">
+    <p class="eyebrow">Latest Research Notes</p>
+    <h3>Generated {{ latest_research_note.created_at.strftime("%Y-%m-%d %H:%M") }}</h3>
+    <pre class="prewrap">{{ latest_research_note.notes }}</pre>
+</section>
+{% endif %}
+
+{% if document_summary %}
+<section class="card">
+    <p class="eyebrow">Document Summary</p>
+    <h3>{{ document_summary.document_type.replace("_", " ").title() }}</h3>
+    <p>{{ document_summary.summary }}</p>
+</section>
+{% endif %}

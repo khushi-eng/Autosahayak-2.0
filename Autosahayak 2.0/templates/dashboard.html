@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="grid three">
+    <div class="card stat">
+        <h2>{{ dashboard.total_cases }}</h2>
+        <p>Total Cases</p>
+    </div>
+    <div class="card stat">
+        <h2>{{ dashboard.upcoming_hearings }}</h2>
+        <p>Upcoming Hearings (14 days)</p>
+    </div>
+    <div class="card stat">
+        <h2>{{ dashboard.deadlines }}</h2>
+        <p>Deadlines (14 days)</p>
+    </div>
+</section>
+
+<section class="grid two">
+    <div class="card">
+        <h3>Recent Cases</h3>
+        {% if cases %}
+            <ul class="list">
+                {% for case in cases %}
+                <li>
+                    <a href="/ui/cases/{{ case.id }}">{{ case.case_number }}</a>
+                    <span>{{ case.client_name }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No cases available yet.</p>
+        {% endif %}
+    </div>
+    <div class="card">
+        <h3>Recent Activity</h3>
+        {% if dashboard.recent_activity %}
+            <ul class="list">
+                {% for item in dashboard.recent_activity %}
+                <li>
+                    <strong>{{ item.action }}</strong>
+                    <span>{{ item.details }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No activity logged yet.</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}
+

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card narrow">
+    <h2>Upload Document</h2>
+    <form method="post" action="/documents/upload" enctype="multipart/form-data" class="stack">
+        <label>Case
+            <select name="case_id" required>
+                <option value="">Select a case</option>
+                {% for case in cases %}
+                <option value="{{ case.id }}">{{ case.case_number }} - {{ case.client_name }}</option>
+                {% endfor %}
+            </select>
+        </label>
+        <label>Document Type
+            <input type="text" name="document_type" placeholder="petition" required>
+        </label>
+        <label>Document Content
+            <textarea name="content" rows="10" placeholder="Paste legal document text here" required></textarea>
+        </label>
+        <label>Optional File
+            <input type="file" name="file">
+        </label>
+        <button type="submit">Upload</button>
+    </form>
+</section>
+{% endblock %}
+

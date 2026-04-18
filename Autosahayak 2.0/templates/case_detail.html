@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+    <h2>{{ case.case_number }}</h2>
+    <p><strong>Court:</strong> {{ case.court_name }}</p>
+    <p><strong>Type:</strong> {{ case.case_type }}</p>
+    <p><strong>Client:</strong> {{ case.client_name }} ({{ case.client_email }})</p>
+    <p><strong>Parties:</strong> {{ case.parties_involved }}</p>
+</section>
+
+<section class="grid two">
+    <div class="card">
+        <p class="eyebrow">AI Workspace</p>
+        <h3>Case Agents</h3>
+        <div class="action-group">
+            <form method="post" action="/ui/cases/{{ case.id }}/predict">
+                <button type="submit">Predict Outcome</button>
+            </form>
+            <form method="post" action="/ui/cases/{{ case.id }}/research">
+                <button type="submit">Generate Research Notes</button>
+            </form>
+        </div>
+    </div>
+    <div class="card">
+        <p class="eyebrow">Drafting Agent</p>
+        <h3>Create a Draft</h3>
+        <form method="post" action="/ui/cases/{{ case.id }}/documents/generate" class="stack">
+            <label>Document Type
+                <input type="text" name="document_type" value="written_statement" required>
+            </label>
+            <button type="submit">Generate Draft Document</button>
+        </form>
+    </div>
+</section>
+
+{% include "partials/case_ai_results.html" %}
+
+<section class="grid three">
+    <div class="card">
+        <h3>Documents</h3>
+        {% if documents %}
+            <div class="stack">
+                {% for document in documents %}
+                <details class="document-dropdown" {% if document_summary and document_summary.document_type == document.document_type %}open{% endif %}>
+                    <summary class="document-summary">
+                        <span>
+                            <strong>{{ document.document_type.replace("_", " ").title() }}</strong>
+                            <small>{{ document.created_at.strftime("%Y-%m-%d %H:%M") }}</small>
+                        </span>
+                        <span class="muted">Open document</span>
+                    </summary>
+                    <div class="document-body">
+                        <div class="action-group">
+                            <form method="post" action="/ui/documents/{{ document.id }}/summary">
+                                <button type="submit" class="secondary">Summarize</button>
+                            </form>
+                        </div>
+                        <pre class="document-content">{{ document.content }}</pre>
+                    </div>
+                </details>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No documents uploaded.</p>
+        {% endif %}
+    </div>
+    <div class="card">
+        <h3>Hearings</h3>
+        {% if hearings %}
+            <ul class="list">
+                {% for hearing in hearings %}
+                <li>
+                    <strong>{{ hearing.hearing_date.strftime("%Y-%m-%d %H:%M") }}</strong>
+                    <span>{{ hearing.next_action }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No hearings scheduled.</p>
+        {% endif %}
+    </div>
+    <div class="card">
+        <h3>Deadlines</h3>
+        {% if deadlines %}
+            <ul class="list">
+                {% for deadline in deadlines %}
+                <li>
+                    <strong>{{ deadline.title }}</strong>
+                    <span>{{ deadline.deadline.strftime("%Y-%m-%d %H:%M") }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No deadlines recorded.</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+    <div class="toolbar">
+        <h2>Case Directory</h2>
+        <form method="get" action="/ui/cases" class="search-form">
+            <input type="text" name="q" value="{{ query }}" placeholder="Search case number, client, court">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    {% if cases %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Case Number</th>
+                    <th>Court</th>
+                    <th>Type</th>
+                    <th>Client</th>
+                    <th>Created</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for case in cases %}
+                <tr>
+                    <td><a href="/ui/cases/{{ case.id }}">{{ case.case_number }}</a></td>
+                    <td>{{ case.court_name }}</td>
+                    <td>{{ case.case_type }}</td>
+                    <td>{{ case.client_name }}</td>
+                    <td>{{ case.created_at.strftime("%Y-%m-%d") }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No cases matched your search.</p>
+    {% endif %}
+</section>
+{% endblock %}
+

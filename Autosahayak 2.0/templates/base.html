@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autosahayak 2.0</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div>
+            <h1>Autosahayak 2.0</h1>
+            <p>AI-Powered Legal Workflow Agent for Court Case Management</p>
+        </div>
+        <nav>
+            <a href="/">Dashboard</a>
+            <a href="/ui/cases">Cases</a>
+            <a href="/ui/drafts">Draft Generator</a>
+            <a href="/ui/documents/upload">Upload Document</a>
+            <a href="/docs">API Docs</a>
+        </nav>
+    </header>
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
