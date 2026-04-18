@@ -3,3 +3,22 @@ INFO:     Waiting for application startup.
 2026-04-19 04:47:42,456 | INFO | main | Autosahayak 2.0 started
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58038 - "GET /ui/cases/2/research HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58039 - "POST /ui/cases/2/research HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:58040 - "GET /ui/cases/2/research?notice=Research%20notes%20generated%20successfully. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60228 - "GET /ui/cases/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60228 - "GET /ui/cases/2/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59795 - "GET /ui/cases/2/research HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59795 - "POST /ui/cases/2/research HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:59795 - "GET /ui/cases/2/research?notice=Research%20notes%20generated%20successfully. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61169 - "GET /ui/cases/2/research HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /ui/cases/2/scheduling HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63958 - "GET /ui/cases/2/hearings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62417 - "POST /ui/cases/2/hearings/add HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:62417 - "GET /ui/cases/2/hearings?notice=Hearing+notes+captured+and+intelligence+updated. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50321 - "GET /ui/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59566 - "GET /ui/cases/2/research HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59566 - "GET /static/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59566 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56378 - "GET /ui/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52239 - "GET /ui/cases/2/research HTTP/1.1" 200 OK
