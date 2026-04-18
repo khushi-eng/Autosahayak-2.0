@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block content %}
+{% if notice %}
+<section class="card notice">
+    <strong>{{ notice }}</strong>
+</section>
+{% endif %}
+
+<section class="card">
+    <div class="case-header">
+        <div>
+            <p class="eyebrow">{{ case.case_type }}</p>
+            <h2>{{ case.case_number }}</h2>
+            <p><strong>Client:</strong> {{ case.client_name }} ({{ case.client_email }})</p>
+            <p><strong>Court:</strong> {{ case.court_name }}</p>
+        </div>
+        <a href="/ui/cases/{{ case.id }}" class="button-link">Back to Case Overview</a>
+    </div>
+</section>
+
+<section class="card">
+    <div class="module-heading">
+        <div>
+            <p class="eyebrow">AI Drafting Agent</p>
+            <h3>Describe what you want, choose the document type, and fill the mandatory fields</h3>
+        </div>
+        <span class="module-count">{{ active_document_config.label }}</span>
+    </div>
+    <div class="grid two">
+        <div class="stack">
+            <div class="mandatory-box">
+                <strong>Mandatory fields for {{ active_document_config.label }}</strong>
+                <ul class="inline-list">
+                    {% for field_name, field_label in active_document_config.mandatory_fields %}
+                    <li>{{ field_label }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <form method="post" action="/ui/cases/{{ case.id }}/drafts/generate" class="stack" id="case-draft-form">
+                <label>Document Type
+                    <select name="document_type" id="document_type_select" required>
+                        {% for key, config in document_type_options.items() %}
+                        <option value="{{ key }}" {% if draft_state.document_type == key %}selected{% endif %}>{{ config.label }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+                <label data-field="client_name">Client Name
+                    <input type="text" name="client_name" value="{{ draft_state.client_name }}" required>
+                </label>
+                <label data-field="opponent_name">Opposite Party
+                    <input type="text" name="opponent_name" value="{{ draft_state.opponent_name }}" placeholder="Respondent / plaintiff / accused">
+                </label>
+                <label data-field="facts">Facts and Description
+                    <textarea name="facts" rows="8" placeholder="Describe what you want in the draft and the case facts" required>{{ draft_state.facts }}</textarea>
+                </label>
+                <label data-field="demand">Demand / Relief
+                    <textarea name="demand" rows="5" placeholder="Relief sought or demand">{{ draft_state.demand }}</textarea>
+                </label>
+                <label data-field="authority">Authority / Court
+                    <input type="text" name="authority" value="{{ draft_state.authority }}" placeholder="Court, authority, or recipient" required>
+                </label>
+                <label data-field="additional_notes">Additional Notes
+                    <textarea name="additional_notes" rows="4" placeholder="Optional drafting instructions">{{ draft_state.additional_notes }}</textarea>
+                </label>
+                <button type="submit">Generate Draft</button>
+            </form>
+        </div>
+        <div class="stack">
+            <div class="info-tile">
+                <strong>{{ active_document_config.label }}</strong>
+                <p class="muted">{{ active_document_config.description }}</p>
+            </div>
+            <form method="post" action="/ui/drafts/save" class="stack">
+                <input type="hidden" name="case_id" value="{{ case.id }}">
+                <input type="hidden" name="document_type" value="{{ draft_state.document_type }}">
+                <label>Generated Draft
+                    <textarea name="generated_draft" rows="24" placeholder="The AI drafting output will appear here after generation" {% if not draft_state.generated_draft %}readonly{% endif %}>{{ draft_state.generated_draft }}</textarea>
+                </label>
+                <button type="submit" {% if not draft_state.generated_draft %}disabled{% endif %}>Save Draft to Repository</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

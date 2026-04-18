@@ -17,13 +17,13 @@
 
 <section class="grid two">
     <div class="card">
-        <h3>Recent Cases</h3>
-        {% if cases %}
+        <h3>Priority Cases</h3>
+        {% if case_cards %}
             <ul class="list">
-                {% for case in cases %}
+                {% for item in case_cards %}
                 <li>
-                    <a href="/ui/cases/{{ case.id }}">{{ case.case_number }}</a>
-                    <span>{{ case.client_name }}</span>
+                    <strong><a href="/ui/cases/{{ item.case.id }}">{{ item.case.case_number }}</a></strong>
+                    <span>{{ item.case.client_name }} | {{ item.priority }}</span>
                 </li>
                 {% endfor %}
             </ul>
@@ -48,4 +48,3 @@
     </div>
 </section>
 {% endblock %}
-

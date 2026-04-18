@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block content %}
+{% if notice %}
+<section class="card notice">
+    <strong>{{ notice }}</strong>
+</section>
+{% endif %}
+
+<section class="card">
+    <div class="case-header">
+        <div>
+            <p class="eyebrow">{{ case.case_type }}</p>
+            <h2>{{ case.case_number }}</h2>
+            <p><strong>Client:</strong> {{ case.client_name }} ({{ case.client_email }})</p>
+            <p><strong>Court:</strong> {{ case.court_name }}</p>
+        </div>
+        <a href="/ui/cases/{{ case.id }}" class="button-link">Back to Case Overview</a>
+    </div>
+</section>
+
+<section class="card">
+    <div class="module-heading">
+        <div>
+            <p class="eyebrow">Hearing Intelligence</p>
+            <h3>Capture every hearing, auto-create hearing documents, and maintain the running summary</h3>
+        </div>
+        <form method="post" action="/ui/cases/{{ case.id }}/predict">
+            <button type="submit" class="secondary">Analyze Case Outcome</button>
+        </form>
+    </div>
+    <div class="grid two">
+        <div class="stack">
+            <form method="post" action="/ui/cases/{{ case.id }}/hearings/add" class="stack">
+                <label>Hearing Date and Time
+                    <input type="datetime-local" name="hearing_date" required>
+                </label>
+                <label>Next Hearing Date and Time
+                    <input type="datetime-local" name="next_hearing_date">
+                </label>
+                <label>Hearing Description
+                    <textarea name="notes" rows="6" placeholder="Describe what happened in the hearing" required></textarea>
+                </label>
+                <label>Next Action
+                    <input type="text" name="next_action" placeholder="Next steps after this hearing" required>
+                </label>
+                <button type="submit">Add Hearing</button>
+            </form>
+            {% include "partials/case_ai_results.html" %}
+        </div>
+        <div class="stack">
+            {% if hearing_documents %}
+                {% for entry in hearing_documents %}
+                <details class="document-dropdown" {% if loop.last %}open{% endif %}>
+                    <summary class="document-summary">
+                        <span>
+                            <strong>Hearing {{ loop.index }}</strong>
+                            <small>{{ entry.hearing.hearing_date | local_datetime }}</small>
+                            {% if entry.hearing.next_hearing_date %}
+                                <small>Next: {{ entry.hearing.next_hearing_date | local_datetime }}</small>
+                            {% endif %}
+                        </span>
+                        <span class="muted">Open hearing doc</span>
+                    </summary>
+                    <div class="document-body">
+                        <pre class="document-content">{{ entry.document }}</pre>
+                    </div>
+                </details>
+                {% endfor %}
+                <div class="summary-box">
+                    <strong>Summary up to the latest hearing</strong>
+                    <p class="prewrap">{{ hearing_summary }}</p>
+                </div>
+            {% else %}
+                <p>No hearing documents yet.</p>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}

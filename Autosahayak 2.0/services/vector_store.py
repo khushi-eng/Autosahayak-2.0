@@ -16,6 +16,13 @@ class SimpleVectorStore:
     def add_text(self, text: str, metadata: dict[str, Any]) -> None:
         self.entries.append({"text": text, "metadata": metadata})
 
+    def remove_document(self, document_id: int) -> None:
+        self.entries = [
+            entry
+            for entry in self.entries
+            if entry["metadata"].get("document_id") != document_id
+        ]
+
     def search(self, query: str, limit: int = 3) -> list[dict[str, Any]]:
         lowered = query.lower()
         matches = [entry for entry in self.entries if lowered in entry["text"].lower()]

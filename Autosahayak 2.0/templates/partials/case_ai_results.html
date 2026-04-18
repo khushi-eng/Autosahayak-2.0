@@ -1,9 +1,3 @@
-{% if notice %}
-<section class="card notice">
-    <strong>{{ notice }}</strong>
-</section>
-{% endif %}
-
 {% if prediction %}
 <section class="card">
     <p class="eyebrow">Outcome Prediction</p>
@@ -16,7 +10,7 @@
 {% if latest_research_note %}
 <section class="card">
     <p class="eyebrow">Latest Research Notes</p>
-    <h3>Generated {{ latest_research_note.created_at.strftime("%Y-%m-%d %H:%M") }}</h3>
+    <h3>Generated {{ latest_research_note.created_at | local_datetime("%Y-%m-%d %H:%M") }}</h3>
     <pre class="prewrap">{{ latest_research_note.notes }}</pre>
 </section>
 {% endif %}

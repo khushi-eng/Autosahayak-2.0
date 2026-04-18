@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+{% block content %}
+{% if notice %}
+<section class="card notice">
+    <strong>{{ notice }}</strong>
+</section>
+{% endif %}
+
+<section class="card">
+    <div class="case-header">
+        <div>
+            <p class="eyebrow">{{ case.case_type }}</p>
+            <h2>{{ case.case_number }}</h2>
+            <p><strong>Client:</strong> {{ case.client_name }} ({{ case.client_email }})</p>
+            <p><strong>Court:</strong> {{ case.court_name }}</p>
+        </div>
+        <a href="/ui/cases/{{ case.id }}" class="button-link">Back to Case Overview</a>
+    </div>
+</section>
+
+<section class="card">
+    <div class="module-heading">
+        <div>
+            <p class="eyebrow">Document Repository</p>
+            <h3>All uploaded, uploadable, and deletable case documents</h3>
+        </div>
+        <span class="module-count">{{ documents|length }} document(s)</span>
+    </div>
+    <div class="grid two">
+        <div class="stack">
+            <h4>Manual Document Upload</h4>
+            <form method="post" action="/ui/cases/{{ case.id }}/documents/upload" enctype="multipart/form-data" class="stack">
+                <label>Document Type
+                    <input type="text" name="document_type" placeholder="petition / evidence / hearing memo" required>
+                </label>
+                <label>Document Content
+                    <textarea name="content" rows="7" placeholder="Paste the document text here" required></textarea>
+                </label>
+                <label>Optional File
+                    <input type="file" name="file">
+                </label>
+                <button type="submit">Upload Document</button>
+            </form>
+
+            <h4>AI Drafting Agent</h4>
+            <div class="mandatory-box">
+                <strong>Mandatory fields for {{ active_document_config.label }}</strong>
+                <ul class="inline-list">
+                    {% for field_name, field_label in active_document_config.mandatory_fields %}
+                    <li>{{ field_label }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <form method="post" action="/ui/cases/{{ case.id }}/documents/generate" class="stack" id="case-draft-form">
+                <label>Document Type
+                    <select name="document_type" id="document_type_select" required onchange="updateMandatoryFields()">
+                        {% for key, config in document_type_options.items() %}
+                        <option value="{{ key }}" {% if draft_state.document_type == key %}selected{% endif %}>{{ config.label }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+                <label data-field="client_name">Client Name
+                    <input type="text" name="client_name" value="{{ draft_state.client_name or case.client_name }}" required>
+                </label>
+                <label data-field="opponent_name">Opposite Party
+                    <input type="text" name="opponent_name" value="{{ draft_state.opponent_name }}" placeholder="Respondent / plaintiff / accused">
+                </label>
+                <label data-field="facts">Raw Case Data & Facts
+                    <textarea name="facts" rows="10" placeholder="Input all raw case information, facts, evidence details, and what you want the document to achieve. The AI agent will analyze and structure this into a proper legal document." required>{{ draft_state.facts }}</textarea>
+                </label>
+                <label data-field="demand">Relief Sought / Demand
+                    <textarea name="demand" rows="5" placeholder="What outcome or relief is being requested?">{{ draft_state.demand }}</textarea>
+                </label>
+                <label data-field="authority">Authority / Court
+                    <input type="text" name="authority" value="{{ draft_state.authority or case.court_name }}" placeholder="Court, authority, or recipient" required>
+                </label>
+                <label data-field="additional_notes">Additional Instructions
+                    <textarea name="additional_notes" rows="4" placeholder="Specific legal points to include, formatting preferences, or special requirements">{{ draft_state.additional_notes }}</textarea>
+                </label>
+                <button type="submit">Generate Legal Document</button>
+            </form>
+
+            <div class="info-tile">
+                <strong>{{ active_document_config.label }}</strong>
+                <p class="muted">{{ active_document_config.description }}</p>
+            </div>
+        </div>
+        <div class="stack">
+            {% if documents %}
+                {% for document in documents %}
+                <details class="document-dropdown" {% if document_summary and document_summary.id == document.id %}open{% endif %}>
+                    <summary class="document-summary">
+                        <span>
+                            <strong>{{ document.document_type.replace("_", " ").title() }}</strong>
+                            <small>{{ document.created_at | local_datetime }}</small>
+                        </span>
+                        <span class="muted">Open document</span>
+                    </summary>
+                    <div class="document-body">
+                        <div class="action-group">
+                            <form method="post" action="/ui/documents/{{ document.id }}/summary">
+                                <button type="submit" class="secondary">Summarize</button>
+                            </form>
+                            <form method="post" action="/ui/documents/{{ document.id }}/delete">
+                                <button type="submit" class="danger">Delete</button>
+                            </form>
+                        </div>
+                        {% if document.file_path %}
+                        <p class="muted">Stored file: {{ document.file_path }}</p>
+                        <a class="secondary" href="/ui/documents/{{ document.id }}/download" target="_blank">Download file</a>
+                        {% endif %}
+                        {% if document_summary and document_summary.id == document.id %}
+                        <div class="summary-box">
+                            <strong>AI Summary</strong>
+                            <p class="prewrap">{{ document_summary.summary }}</p>
+                        </div>
+                        {% endif %}
+                        <pre class="document-content">{{ document.content }}</pre>
+                    </div>
+                </details>
+                {% endfor %}
+            {% else %}
+                <p>No documents in the repository yet.</p>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<script>
+function updateMandatoryFields() {
+    const select = document.getElementById('document_type_select');
+    const selectedType = select.value;
+    const mandatoryFields = {{ document_type_options | tojson }};
+    
+    if (mandatoryFields[selectedType]) {
+        const config = mandatoryFields[selectedType];
+        const mandatoryBox = document.querySelector('.mandatory-box ul');
+        mandatoryBox.innerHTML = config.mandatory_fields.map(([_, label]) => `<li>${label}</li>`).join('');
+        
+        const infoTile = document.querySelector('.info-tile strong');
+        const infoDesc = document.querySelector('.info-tile p');
+        infoTile.textContent = config.label;
+        infoDesc.textContent = config.description;
+    }
+}
+</script>
+{% endblock %}

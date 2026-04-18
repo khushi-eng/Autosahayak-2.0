@@ -1,27 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="card narrow">
-    <h2>Upload Document</h2>
+    <p class="eyebrow">Document Repository</p>
+    <h2>Upload a document into a case repository</h2>
     <form method="post" action="/documents/upload" enctype="multipart/form-data" class="stack">
         <label>Case
             <select name="case_id" required>
                 <option value="">Select a case</option>
                 {% for case in cases %}
-                <option value="{{ case.id }}">{{ case.case_number }} - {{ case.client_name }}</option>
+                <option value="{{ case.id }}" {% if selected_case_id == case.id %}selected{% endif %}>{{ case.case_number }} - {{ case.client_name }}</option>
                 {% endfor %}
             </select>
         </label>
         <label>Document Type
-            <input type="text" name="document_type" placeholder="petition" required>
+            <input type="text" name="document_type" placeholder="petition / evidence / vakalatnama" required>
         </label>
         <label>Document Content
-            <textarea name="content" rows="10" placeholder="Paste legal document text here" required></textarea>
+            <textarea name="content" rows="10" placeholder="Paste the full legal text or repository notes here" required></textarea>
         </label>
         <label>Optional File
             <input type="file" name="file">
         </label>
-        <button type="submit">Upload</button>
+        <button type="submit">Upload to Repository</button>
     </form>
 </section>
 {% endblock %}
-

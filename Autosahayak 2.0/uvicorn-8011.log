@@ -1,0 +1,5 @@
+INFO:     Started server process [17960]
+INFO:     Waiting for application startup.
+2026-04-19 04:47:42,456 | INFO | main | Autosahayak 2.0 started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)

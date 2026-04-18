@@ -1,8 +1,8 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 
 def detect_due_deadlines(deadlines):
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     threshold = now + timedelta(hours=24)
     return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
 

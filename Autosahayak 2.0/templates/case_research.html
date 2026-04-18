@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+{% if notice %}
+<section class="card notice">
+    <strong>{{ notice }}</strong>
+</section>
+{% endif %}
+
+<section class="card">
+    <div class="case-header">
+        <div>
+            <p class="eyebrow">{{ case.case_type }}</p>
+            <h2>{{ case.case_number }}</h2>
+            <p><strong>Client:</strong> {{ case.client_name }} ({{ case.client_email }})</p>
+            <p><strong>Court:</strong> {{ case.court_name }}</p>
+        </div>
+        <a href="/ui/cases/{{ case.id }}" class="button-link">Back to Case Overview</a>
+    </div>
+</section>
+
+<section class="card">
+    <div class="module-heading">
+        <div>
+            <p class="eyebrow">Legal Research Module</p>
+            <h3>Analyze case documents and prepare research grounded in legal sources</h3>
+            <p class="muted">This module is meant to read the case material, identify relevant IPC and related legal issues, and prepare a research brief tied to official legal references.</p>
+        </div>
+        <form method="post" action="/ui/cases/{{ case.id }}/research">
+            <button type="submit">Generate Research Note</button>
+        </form>
+    </div>
+    {% if research_notes %}
+        <div class="stack">
+            {% for note in research_notes %}
+            <details class="document-dropdown" {% if loop.first %}open{% endif %}>
+                <summary class="document-summary">
+                    <span>
+                        <strong>Research Note {{ loop.index }}</strong>
+                        <small>{{ note.created_at | local_datetime }}</small>
+                    </span>
+                    <span class="muted">Open research</span>
+                </summary>
+                <div class="document-body">
+                    <pre class="document-content">{{ note.notes }}</pre>
+                </div>
+            </details>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>No research notes generated yet.</p>
+    {% endif %}
+</section>
+{% endblock %}

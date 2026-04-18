@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from sqlalchemy import func
 from sqlalchemy.orm import Session
@@ -8,7 +8,7 @@ from schemas.dashboard import ActivityItem, DashboardResponse
 
 
 def get_dashboard_data(db: Session) -> DashboardResponse:
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     hearing_window = now + timedelta(days=14)
 
     total_cases = db.query(func.count(Case.id)).scalar() or 0

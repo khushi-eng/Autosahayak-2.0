@@ -17,3 +17,12 @@ async def save_upload_file(upload: UploadFile | None, prefix: str) -> str | None
     target_path.write_bytes(content)
     return str(target_path)
 
+
+def delete_upload_file(file_path: str | None) -> None:
+    if not file_path:
+        return
+
+    target_path = Path(file_path)
+    if target_path.exists() and target_path.is_file():
+        target_path.unlink()
+

@@ -13,3 +13,1440 @@
 2026-04-19 01:05:39,809 | INFO | main | Autosahayak 2.0 started
 2026-04-19 01:07:39,923 | INFO | main | Autosahayak 2.0 started
 2026-04-19 01:15:29,164 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 01:15:56,951 | INFO | main | Autosahayak 2.0 started
+2026-04-19 01:55:32,487 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2026-04-19 01:55:32,491 | INFO | openai._base_client | Retrying request to /responses in 0.375094 seconds
+2026-04-19 01:55:33,816 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2026-04-19 01:55:33,818 | INFO | openai._base_client | Retrying request to /responses in 0.482031 seconds
+2026-04-19 01:55:40,349 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2026-04-19 01:55:40,352 | INFO | openai._base_client | Retrying request to /responses in 0.805292 seconds
+2026-04-19 01:55:40,676 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2026-04-19 01:55:40,678 | INFO | openai._base_client | Retrying request to /responses in 0.847503 seconds
+2026-04-19 01:55:46,547 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2026-04-19 01:55:46,980 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2026-04-19 02:12:40,491 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:12:59,225 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:13:24,750 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:14:11,143 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:14:19,765 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:21:41,786 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:21:46,387 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:23:20,679 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:23:24,841 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:29:54,443 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:31:27,291 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:31:50,049 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:32:15,241 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:35:45,422 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:36:06,454 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:36:16,323 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:40:43,751 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:41:04,110 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:46:14,749 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:52:06,370 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:52:10,711 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:53:25,442 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:53:33,277 | INFO | main | Autosahayak 2.0 started
+2026-04-19 02:54:09,916 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 02:54:17,784 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:01:02,946 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:07:21,225 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:08:04,851 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:19:36,615 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:19:36,615 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:19:44,319 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:19:44,346 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:20:58,435 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:21:12,710 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:25:01,311 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:25:01,387 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:25:16,090 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:25:16,255 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:25:49,477 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:25:49,539 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:25:53,795 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:27:41,575 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:27:41,883 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:27:54,793 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:27:54,863 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:27:55,001 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:28:54,156 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:28:54,265 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:28:54,895 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:28:55,438 | ERROR | asyncio | Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<RequestResponseCycle.run_asgi() running at C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\uvicorn\protocols\http\httptools_impl.py:407> cb=[set.discard()]>
+2026-04-19 03:30:01,594 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:30:02,310 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:30:02,984 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:30:43,255 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:30:43,354 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,409 | INFO | httpx | HTTP Request: GET http://testserver/ui/overview "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,456 | INFO | httpx | HTTP Request: GET http://testserver/cases "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,542 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,583 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/drafting "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,615 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/research "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,645 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/scheduling "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,692 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/hearings "HTTP/1.1 200 OK"
+2026-04-19 03:30:43,694 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:31:26,811 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:31:26,900 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:31:35,373 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:31:35,461 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:32:30,433 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:32:31,260 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:33:09,332 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:33:20,370 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:33:28,838 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:33:40,454 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:33:41,138 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:33:41,389 | INFO | httpx | HTTP Request: GET http://testserver/cases "HTTP/1.1 200 OK"
+2026-04-19 03:33:41,728 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases "HTTP/1.1 200 OK"
+2026-04-19 03:33:41,982 | INFO | httpx | HTTP Request: GET http://testserver/ui/overview "HTTP/1.1 200 OK"
+2026-04-19 03:33:42,139 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1 "HTTP/1.1 200 OK"
+2026-04-19 03:33:42,228 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 03:33:42,435 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/drafting "HTTP/1.1 200 OK"
+2026-04-19 03:33:42,517 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/research "HTTP/1.1 200 OK"
+2026-04-19 03:33:42,588 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/scheduling "HTTP/1.1 200 OK"
+2026-04-19 03:33:42,693 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/hearings "HTTP/1.1 200 OK"
+2026-04-19 03:33:42,702 | INFO | httpx | HTTP Request: GET http://testserver/documents?case_id=1 "HTTP/1.1 404 Not Found"
+2026-04-19 03:33:44,258 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:33:45,744 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:34:34,653 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:34:34,757 | INFO | httpx | HTTP Request: GET http://testserver/cases "HTTP/1.1 200 OK"
+2026-04-19 03:34:34,991 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,170 | INFO | httpx | HTTP Request: GET http://testserver/ui/overview "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,328 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1 "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,461 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,601 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/drafting "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,716 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/research "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,795 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/scheduling "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,930 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/hearings "HTTP/1.1 200 OK"
+2026-04-19 03:34:35,933 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:36:01,031 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:40:38,692 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:40:38,818 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:40:40,337 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:41:00,710 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:41:00,742 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:41:03,003 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:41:45,595 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:41:45,722 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:41:55,857 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:41:55,867 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:42:03,378 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:42:21,782 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:42:30,575 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:42:30,583 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents/generate "HTTP/1.1 405 Method Not Allowed"
+2026-04-19 03:42:30,584 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:42:40,596 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:42:40,689 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:42:43,725 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:42:54,647 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:42:54,687 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:42:54,971 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:42:55,003 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents/generate "HTTP/1.1 302 Found"
+2026-04-19 03:42:55,115 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents?notice=Use%20the%20AI-Generated%20Document%20form%20in%20this%20section%20to%20generate%20a%20document. "HTTP/1.1 200 OK"
+2026-04-19 03:42:55,116 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:42:55,866 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:49:34,953 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:49:34,970 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:49:41,769 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:49:41,812 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:52:46,347 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 03:52:57,424 | INFO | main | Autosahayak 2.0 started
+2026-04-19 03:57:21,735 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:09:11,929 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:09:11,941 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:09:19,298 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:09:30,115 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:09:30,129 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:18:58,525 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:19:33,063 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:19:33,076 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:20:10,698 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:22:12,695 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:24:34,242 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:24:34,264 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:24:43,675 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases "HTTP/1.1 200 OK"
+2026-04-19 04:24:43,735 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1 "HTTP/1.1 200 OK"
+2026-04-19 04:24:43,797 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 04:24:43,863 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/hearings "HTTP/1.1 200 OK"
+2026-04-19 04:24:43,902 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/research "HTTP/1.1 200 OK"
+2026-04-19 04:24:43,940 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/scheduling "HTTP/1.1 200 OK"
+2026-04-19 04:24:43,955 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/drafting "HTTP/1.1 302 Found"
+2026-04-19 04:24:43,979 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 04:24:44,009 | INFO | httpx | HTTP Request: GET http://testserver/dashboard "HTTP/1.1 200 OK"
+2026-04-19 04:24:44,074 | INFO | httpx | HTTP Request: GET http://testserver/ui/overview "HTTP/1.1 200 OK"
+2026-04-19 04:24:44,119 | INFO | httpx | HTTP Request: GET http://testserver/ui/drafts "HTTP/1.1 200 OK"
+2026-04-19 04:24:44,152 | INFO | httpx | HTTP Request: GET http://testserver/ui/documents/upload "HTTP/1.1 200 OK"
+2026-04-19 04:24:45,649 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:25:11,859 | INFO | httpx | HTTP Request: GET http://testserver/openapi.json "HTTP/1.1 200 OK"
+2026-04-19 04:25:11,871 | INFO | httpx | HTTP Request: POST http://testserver/cases "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:11,913 | INFO | httpx | HTTP Request: GET http://testserver/cases "HTTP/1.1 200 OK"
+2026-04-19 04:25:11,923 | INFO | httpx | HTTP Request: GET http://testserver/cases/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:11,934 | INFO | httpx | HTTP Request: POST http://testserver/documents/upload "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:11,949 | INFO | httpx | HTTP Request: GET http://testserver/documents/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:11,962 | INFO | httpx | HTTP Request: POST http://testserver/documents/generate "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:11,977 | INFO | httpx | HTTP Request: GET http://testserver/documents/summary/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:11,992 | INFO | httpx | HTTP Request: POST http://testserver/hearings "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,018 | INFO | httpx | HTTP Request: GET http://testserver/hearings/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,038 | INFO | httpx | HTTP Request: POST http://testserver/deadlines "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,053 | INFO | httpx | HTTP Request: GET http://testserver/deadlines/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,099 | INFO | services.reminder_service | [Reminder] Deadline 'file affidavit' is due on 2026-04-23T04:16:00 for khushibane3@gmail.com.
+2026-04-19 04:25:12,104 | INFO | httpx | HTTP Request: POST http://testserver/deadlines/send-reminder/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,159 | INFO | httpx | HTTP Request: POST http://testserver/ai/research/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,199 | INFO | httpx | HTTP Request: POST http://testserver/ai/predict/1 "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,207 | INFO | httpx | HTTP Request: POST http://testserver/ai/summarize "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,234 | INFO | httpx | HTTP Request: GET http://testserver/dashboard "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,246 | INFO | httpx | HTTP Request: GET http://testserver/ "HTTP/1.1 302 Found"
+2026-04-19 04:25:12,294 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,331 | INFO | httpx | HTTP Request: GET http://testserver/ui/overview "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,347 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,356 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/drafting "HTTP/1.1 302 Found"
+2026-04-19 04:25:12,386 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,405 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/research "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,450 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/research "HTTP/1.1 303 See Other"
+2026-04-19 04:25:12,464 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/research?notice=Research%20notes%20generated%20successfully. "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,491 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/scheduling "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,520 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/hearings "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,532 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,546 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/documents/upload "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,561 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/documents/generate "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,575 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents/generate "HTTP/1.1 500 Internal Server Error"
+2026-04-19 04:25:12,624 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/delete "HTTP/1.1 303 See Other"
+2026-04-19 04:25:12,633 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases?notice=Case%20deleted%20successfully. "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,644 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1 "HTTP/1.1 404 Not Found"
+2026-04-19 04:25:12,655 | INFO | httpx | HTTP Request: POST http://testserver/ui/documents/1/delete "HTTP/1.1 404 Not Found"
+2026-04-19 04:25:12,666 | INFO | httpx | HTTP Request: GET http://testserver/ui/documents/1/download "HTTP/1.1 404 Not Found"
+2026-04-19 04:25:12,678 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/hearings/add "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,692 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/deadlines/add "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,720 | INFO | httpx | HTTP Request: GET http://testserver/ui/documents/upload "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,769 | INFO | httpx | HTTP Request: GET http://testserver/ui/drafts "HTTP/1.1 200 OK"
+2026-04-19 04:25:12,785 | INFO | httpx | HTTP Request: POST http://testserver/ui/drafts/generate "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,804 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/drafts/generate "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,820 | INFO | httpx | HTTP Request: POST http://testserver/ui/drafts/save "HTTP/1.1 422 Unprocessable Entity"
+2026-04-19 04:25:12,843 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/1/predict "HTTP/1.1 404 Not Found"
+2026-04-19 04:25:12,859 | INFO | httpx | HTTP Request: POST http://testserver/ui/documents/1/summary "HTTP/1.1 404 Not Found"
+2026-04-19 04:27:06,564 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:27:19,904 | INFO | main | Loaded demo data for Autosahayak 2.0
+2026-04-19 04:27:19,905 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:27:19,920 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:22,727 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:22,890 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:22,984 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:30,929 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:38,907 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:39,960 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:42,737 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:42,927 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:43,039 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:50,941 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:58,927 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:27:59,950 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:02,734 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:02,934 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:03,045 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:10,957 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:18,957 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:19,973 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:20,522 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:28:22,754 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:22,941 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:23,052 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:29,498 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:28:29,514 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:30,969 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:38,951 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:42,748 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:42,947 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:43,057 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:49,519 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:50,973 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:28:58,962 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:02,768 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:02,972 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:03,068 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:09,539 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:10,973 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:18,978 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:22,786 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:22,988 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:23,081 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:29,542 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:30,972 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:38,981 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:42,803 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:43,007 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:43,089 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:49,545 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:50,988 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:29:58,996 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:02,821 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:03,038 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:03,115 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:09,555 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:10,998 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:19,011 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:22,850 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:23,055 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:23,133 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:29,565 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:31,001 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:39,032 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:42,860 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:43,065 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:43,145 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:49,582 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:51,021 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:30:59,053 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:02,861 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:03,099 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:03,167 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:09,603 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:11,022 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:19,065 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:22,865 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:23,112 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:23,194 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:29,626 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:31,048 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:39,078 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:42,883 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:43,116 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:43,227 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:49,634 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:51,051 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:31:59,105 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:32:02,893 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:32:03,143 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:32:03,255 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:32:09,662 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:32:09,784 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:32:11,059 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:32:19,121 | ERROR | services.reminder_service | Reminder worker failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 45, in reminder_worker
+    due = detect_due_deadlines(pending)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\agents\scheduler_agent.py", line 7, in detect_due_deadlines
+    return [deadline for deadline in deadlines if now <= deadline.deadline <= threshold]
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2026-04-19 04:32:22,243 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:32:22,368 | INFO | services.reminder_service | [Reminder] Deadline 'File additional affidavit' is due on 2026-04-19T18:57:19.810290+00:00 for aarav.sharma@example.com.
+2026-04-19 04:33:05,175 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:33:05,205 | INFO | httpx | HTTP Request: GET http://testserver/cases "HTTP/1.1 200 OK"
+2026-04-19 04:33:05,241 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1 "HTTP/1.1 200 OK"
+2026-04-19 04:33:05,264 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 04:33:05,277 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/scheduling "HTTP/1.1 200 OK"
+2026-04-19 04:33:05,301 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/hearings "HTTP/1.1 200 OK"
+2026-04-19 04:33:06,769 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:33:23,693 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:33:33,248 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:33:50,597 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:33:56,725 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:35:29,348 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:37:23,662 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:39:07,664 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:39:07,752 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents "HTTP/1.1 200 OK"
+2026-04-19 04:39:07,768 | INFO | httpx | HTTP Request: GET http://testserver/ui/cases/1/documents/generate "HTTP/1.1 200 OK"
+2026-04-19 04:39:07,771 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:39:27,945 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:40:11,775 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:40:11,792 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:41:27,493 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:41:27,499 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:42:27,514 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:43:14,643 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:43:14,664 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:46:25,293 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:46:28,297 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:46:29,767 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:16:27.713244', '2026-04-19 23:16:27.713244')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:16:27.713244', '2026-04-19 23:16:27.713244')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 04:46:33,885 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:16:31.957813', '2026-04-19 23:16:31.957813')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:16:31.957813', '2026-04-19 23:16:31.957813')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 04:46:42,116 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:16:39.908504', '2026-04-19 23:16:39.908504')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:16:39.908504', '2026-04-19 23:16:39.908504')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 04:47:06,683 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:47:08,232 | INFO | httpx | HTTP Request: POST http://testserver/ui/cases/2/research "HTTP/1.1 200 OK"
+2026-04-19 04:47:08,233 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 04:47:11,495 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:17:09.982442', '2026-04-19 23:17:09.982442')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:17:09.982442', '2026-04-19 23:17:09.982442')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 04:47:15,868 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:17:13.949255', '2026-04-19 23:17:13.949255')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:17:13.949255', '2026-04-19 23:17:13.949255')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 04:47:23,984 | ERROR | services.reminder_service | Reminder worker failed: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:17:22.241280', '2026-04-19 23:17:22.241280')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\khush\OneDrive\Documents\Hackathon-vit\Autosahayak 2.0\services\reminder_service.py", line 43, in reminder_worker
+    .all()
+     ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\khush\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 945, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+[SQL: SELECT deadlines.id AS deadlines_id, deadlines.case_id AS deadlines_case_id, deadlines.title AS deadlines_title, deadlines.deadline AS deadlines_deadline, deadlines.reminder_sent AS deadlines_reminder_sent 
+FROM deadlines 
+WHERE deadlines.reminder_sent IS 0 AND deadlines.deadline >= ? AND deadlines.deadline <= ?]
+[parameters: ('2026-04-18 23:17:22.241280', '2026-04-19 23:17:22.241280')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-19 04:47:42,456 | INFO | main | Autosahayak 2.0 started
+2026-04-19 04:50:35,088 | INFO | main | Autosahayak 2.0 started
+2026-04-19 05:02:05,567 | INFO | main | Autosahayak 2.0 started
+2026-04-19 05:02:05,583 | INFO | main | Autosahayak 2.0 stopped
+2026-04-19 05:02:40,641 | INFO | main | Autosahayak 2.0 started
+2026-04-19 05:02:40,647 | INFO | main | Autosahayak 2.0 stopped

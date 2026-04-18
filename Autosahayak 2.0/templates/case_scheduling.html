@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+{% if notice %}
+<section class="card notice">
+    <strong>{{ notice }}</strong>
+</section>
+{% endif %}
+
+<section class="card">
+    <div class="case-header">
+        <div>
+            <p class="eyebrow">{{ case.case_type }}</p>
+            <h2>{{ case.case_number }}</h2>
+            <p><strong>Client:</strong> {{ case.client_name }} ({{ case.client_email }})</p>
+            <p><strong>Court:</strong> {{ case.court_name }}</p>
+        </div>
+        <a href="/ui/cases/{{ case.id }}" class="button-link">Back to Case Overview</a>
+    </div>
+</section>
+
+<section class="card">
+    <div class="module-heading">
+        <div>
+            <p class="eyebrow">Scheduling System</p>
+            <h3>Prioritize the matter on the basis of the upcoming hearing date</h3>
+        </div>
+    </div>
+    <div class="grid two">
+        <div class="stack">
+            <form method="post" action="/ui/cases/{{ case.id }}/deadlines/add" class="stack">
+                <label>Scheduling Item
+                    <input type="text" name="title" placeholder="File affidavit / prepare argument / submit evidence" required>
+                </label>
+                <label>Date and Time
+                    <input type="datetime-local" name="deadline" required>
+                </label>
+                <button type="submit">Add Scheduling Item</button>
+            </form>
+        </div>
+        <div class="stack">
+            {% if deadlines %}
+                <ul class="list">
+                    {% for deadline in deadlines %}
+                    <li>
+                        <strong>{{ deadline.title }}</strong>
+                        <span>{{ deadline.deadline | local_datetime }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No scheduling items recorded yet.</p>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}

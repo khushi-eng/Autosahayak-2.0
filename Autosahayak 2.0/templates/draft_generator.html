@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="card">
-    <p class="eyebrow">Draft Generator</p>
-    <h2>Create Legal Documents</h2>
-    <p>Choose a draft type, add the case facts, and generate an editable legal draft you can save into Documents.</p>
+    <p class="eyebrow">AI Drafting Agent</p>
+    <h2>Describe the document you want and complete the mandatory fields</h2>
+    <p>The selected document type controls which inputs are treated as mandatory for the lawyer.</p>
 </section>
 
 {% if notice %}
@@ -14,8 +14,17 @@
 
 <section class="grid two">
     <div class="card">
-        <p class="eyebrow">Step 1 and 2</p>
-        <h3>Draft Inputs</h3>
+        <p class="eyebrow">Draft Inputs</p>
+        <h3>{{ active_document_config.label }}</h3>
+        <p>{{ active_document_config.description }}</p>
+        <div class="mandatory-box">
+            <strong>Mandatory fields for this document type</strong>
+            <ul class="inline-list">
+                {% for field_name, field_label in active_document_config.mandatory_fields %}
+                <li>{{ field_label }}</li>
+                {% endfor %}
+            </ul>
+        </div>
         <form method="post" action="/ui/drafts/generate" class="stack">
             <label>Case
                 <select name="case_id" required>
@@ -28,28 +37,26 @@
                 </select>
             </label>
             <label>Document Type
-                <select name="document_type" required>
-                    {% for option in ["legal_notice", "complaint", "written_statement", "affidavit", "application"] %}
-                    <option value="{{ option }}" {% if document_type == option %}selected{% endif %}>
-                        {{ option.replace("_", " ").title() }}
-                    </option>
+                <select name="document_type" required onchange="window.location.href='/ui/drafts?document_type=' + this.value + '&selected_case_id={{ selected_case_id or '' }}'">
+                    {% for key, config in document_type_options.items() %}
+                    <option value="{{ key }}" {% if document_type == key %}selected{% endif %}>{{ config.label }}</option>
                     {% endfor %}
                 </select>
             </label>
             <label>Client Name
                 <input type="text" name="client_name" value="{{ client_name or (selected_case.client_name if selected_case else '') }}" required>
             </label>
-            <label>Opponent
-                <input type="text" name="opponent_name" value="{{ opponent_name }}" placeholder="Opponent name or party" required>
+            <label>Opposite Party
+                <input type="text" name="opponent_name" value="{{ opponent_name }}" placeholder="Respondent / plaintiff / accused">
             </label>
-            <label>Facts
-                <textarea name="facts" rows="8" placeholder="Enter the material facts of the matter" required>{{ facts }}</textarea>
+            <label>Facts and Description
+                <textarea name="facts" rows="8" placeholder="Describe what you want in the document and the core matter facts" required>{{ facts }}</textarea>
             </label>
             <label>Demand / Relief
-                <textarea name="demand" rows="5" placeholder="Describe the legal demand or relief sought" required>{{ demand }}</textarea>
+                <textarea name="demand" rows="5" placeholder="Required for relief-driven documents">{{ demand }}</textarea>
             </label>
-            <label>Court / Authority
-                <input type="text" name="authority" value="{{ authority or (selected_case.court_name if selected_case else '') }}" placeholder="Court, authority, or office" required>
+            <label>Authority / Court
+                <input type="text" name="authority" value="{{ authority or (selected_case.court_name if selected_case else '') }}" placeholder="Court, authority, or recipient" required>
             </label>
             <label>Additional Notes
                 <textarea name="additional_notes" rows="4" placeholder="Optional drafting instructions">{{ additional_notes }}</textarea>
@@ -59,19 +66,16 @@
     </div>
 
     <div class="card">
-        <p class="eyebrow">Step 3</p>
-        <h3>AI Output</h3>
+        <p class="eyebrow">Generated Output</p>
+        <h3>Editable draft</h3>
         <form method="post" action="/ui/drafts/save" class="stack">
             <input type="hidden" name="case_id" value="{{ selected_case_id or '' }}">
             <input type="hidden" name="document_type" value="{{ document_type }}">
             <label>Generated Draft
-                <textarea name="generated_draft" rows="24" placeholder="Your generated draft will appear here" {% if not generated_draft %}readonly{% endif %}>{{ generated_draft }}</textarea>
+                <textarea name="generated_draft" rows="24" placeholder="The AI drafting agent output will appear here" {% if not generated_draft %}readonly{% endif %}>{{ generated_draft }}</textarea>
             </label>
-            <div class="action-group">
-                <button type="submit" {% if not generated_draft or not selected_case_id %}disabled{% endif %}>Save to Documents</button>
-            </div>
+            <button type="submit" {% if not generated_draft or not selected_case_id %}disabled{% endif %}>Save to Case Repository</button>
         </form>
-        <p class="muted">Step 4: after saving, the draft will appear in the case Documents section.</p>
     </div>
 </section>
 {% endblock %}

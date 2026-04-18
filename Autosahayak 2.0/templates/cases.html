@@ -1,39 +1,118 @@
 {% extends "base.html" %}
 {% block content %}
-<section class="card">
-    <div class="toolbar">
-        <h2>Case Directory</h2>
-        <form method="get" action="/ui/cases" class="search-form">
-            <input type="text" name="q" value="{{ query }}" placeholder="Search case number, client, court">
-            <button type="submit">Search</button>
+<section class="hero card">
+    <div>
+        <p class="eyebrow">Case Registry</p>
+        <h2>All cases and the create case entry point live here</h2>
+        <p>The first page now focuses on case listing, hearing-based prioritization, and quick access into each case workspace.</p>
+    </div>
+    <form method="get" action="/ui/cases" class="search-form">
+        <input type="text" name="q" value="{{ query }}" placeholder="Search case number, client, court">
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+{% if notice %}
+<section class="card notice"><strong>{{ notice }}</strong></section>
+{% endif %}
+{% if error %}
+<section class="card error"><strong>{{ error }}</strong></section>
+{% endif %}
+
+<section class="grid two">
+    <div class="card">
+        <p class="eyebrow">Create Case</p>
+        <h3>Open a new matter</h3>
+        <form method="post" action="/ui/cases/create" class="stack">
+            <label>Case Number
+                <input type="text" name="case_number" placeholder="CS/2026/104" required>
+            </label>
+            <label>Court Name
+                <input type="text" name="court_name" placeholder="District Court, Vellore" required>
+            </label>
+            <label>Case Type
+                <input type="text" name="case_type" placeholder="Civil Suit / Bail / Property Dispute" required>
+            </label>
+            <label>Client Name
+                <input type="text" name="client_name" required>
+            </label>
+            <label>Client Email
+                <input type="email" name="client_email" required>
+            </label>
+            <label>Parties Involved
+                <textarea name="parties_involved" rows="4" placeholder="Plaintiff vs Defendant details" required></textarea>
+            </label>
+            <button type="submit">Create Case</button>
         </form>
     </div>
-    {% if cases %}
-        <table>
-            <thead>
-                <tr>
-                    <th>Case Number</th>
-                    <th>Court</th>
-                    <th>Type</th>
-                    <th>Client</th>
-                    <th>Created</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for case in cases %}
-                <tr>
-                    <td><a href="/ui/cases/{{ case.id }}">{{ case.case_number }}</a></td>
-                    <td>{{ case.court_name }}</td>
-                    <td>{{ case.case_type }}</td>
-                    <td>{{ case.client_name }}</td>
-                    <td>{{ case.created_at.strftime("%Y-%m-%d") }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+
+    <div class="card">
+        <p class="eyebrow">Priority Logic</p>
+        <h3>Scheduling System</h3>
+        <p>Cases are ordered by the nearest upcoming hearing so urgent matters rise to the top.</p>
+        <div class="priority-legend">
+            <span class="badge high">High</span>
+            <span>Hearing within 2 days</span>
+            <span class="badge medium">Medium</span>
+            <span>Hearing within 7 days</span>
+            <span class="badge planned">Planned</span>
+            <span>Later hearing scheduled</span>
+            <span class="badge quiet">No Hearing</span>
+            <span>No upcoming hearing recorded</span>
+        </div>
+    </div>
+</section>
+
+<section class="stack">
+    {% if case_cards %}
+        {% for item in case_cards %}
+        <article class="card case-card">
+            <div class="case-card-main">
+                <div class="case-card-title">
+                    <div>
+                        <p class="eyebrow">{{ item.case.case_type }}</p>
+                        <h3><a href="/ui/cases/{{ item.case.id }}">{{ item.case.case_number }}</a></h3>
+                    </div>
+                    <span class="badge {{ item.priority.lower().replace(' ', '-') }}">{{ item.priority }}</span>
+                </div>
+                <p><strong>Client:</strong> {{ item.case.client_name }}</p>
+                <p><strong>Court:</strong> {{ item.case.court_name }}</p>
+                <p><strong>Parties:</strong> {{ item.case.parties_involved }}</p>
+            </div>
+            <div class="case-card-side">
+                <div class="meta-block">
+                    <strong>Upcoming Hearing</strong>
+                    {% if item.next_hearing %}
+                        <span>{{ item.next_hearing.hearing_date | local_datetime }}</span>
+                        <small>{{ item.days_to_hearing }} day(s) left</small>
+                    {% else %}
+                        <span>No hearing added yet</span>
+                    {% endif %}
+                </div>
+                <div class="meta-block">
+                    <strong>Next Deadline</strong>
+                    {% if item.upcoming_deadline %}
+                        <span>{{ item.upcoming_deadline.title }}</span>
+                        <small>{{ item.upcoming_deadline.deadline | local_datetime }}</small>
+                    {% else %}
+                        <span>No deadline added yet</span>
+                    {% endif %}
+                </div>
+                <div class="meta-block">
+                    <strong>Repository</strong>
+                    <span>{{ item.document_count }} document(s)</span>
+                </div>
+                <a href="/ui/cases/{{ item.case.id }}" class="button-link">Open Case Workspace</a>
+                <form method="post" action="/ui/cases/{{ item.case.id }}/delete" class="inline-form">
+                    <button type="submit" class="danger">Delete Case</button>
+                </form>
+            </div>
+        </article>
+        {% endfor %}
     {% else %}
-        <p>No cases matched your search.</p>
+        <section class="card">
+            <p>No cases matched your search.</p>
+        </section>
     {% endif %}
 </section>
 {% endblock %}
-

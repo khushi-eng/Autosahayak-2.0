@@ -1,5 +1,5 @@
 import asyncio
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from sqlalchemy.orm import Session
 
@@ -35,7 +35,7 @@ async def reminder_worker(stop_event: asyncio.Event, poll_interval: int = 20) ->
     while not stop_event.is_set():
         db = SessionLocal()
         try:
-            now = datetime.utcnow()
+            now = datetime.now(timezone.utc)
             window_end = now + timedelta(hours=24)
             pending = (
                 db.query(Deadline)

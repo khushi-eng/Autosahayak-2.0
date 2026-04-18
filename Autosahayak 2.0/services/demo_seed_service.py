@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from sqlalchemy.orm import Session
 
@@ -11,7 +11,7 @@ def seed_demo_data_if_empty(db: Session) -> bool:
     if existing_case:
         return False
 
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     cases = [
         Case(
             case_number="DEL-CIV-2026-0142",
