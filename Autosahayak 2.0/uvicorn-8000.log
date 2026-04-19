@@ -1,0 +1,53 @@
+INFO:     Started server process [16252]
+INFO:     Waiting for application startup.
+2026-04-19 05:35:49,275 | INFO | main | Autosahayak 2.0 started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61349 - "GET /ui/cases/1/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53734 - "POST /ui/cases/1/documents/generate HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:53734 - "GET /ui/cases/1/documents?notice=AI-generated%20document%20added%20to%20repository. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53734 - "GET /static/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64600 - "POST /ui/documents/9/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:64600 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59625 - "POST /ui/cases/1/documents/generate HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:59625 - "GET /ui/cases/1/documents?notice=AI-generated%20document%20added%20to%20repository. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50757 - "POST /ui/documents/10/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:50757 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54288 - "POST /ui/documents/10/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54288 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54288 - "POST /ui/documents/10/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54288 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53864 - "POST /ui/cases/1/documents/generate HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:53864 - "GET /ui/cases/1/documents?notice=AI-generated%20document%20added%20to%20repository. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57836 - "POST /ui/documents/11/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:57836 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59070 - "POST /ui/documents/11/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:59070 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59070 - "POST /ui/documents/11/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:59070 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63835 - "POST /ui/cases/1/documents/generate HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:63835 - "GET /ui/cases/1/documents?notice=AI-generated%20document%20added%20to%20repository. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56912 - "POST /ui/documents/12/summary HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:56912 - "GET /ui/cases/1/documents?notice=Document+summary+generated+successfully.&document_summary_id=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58913 - "GET /ui/cases/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58913 - "GET /ui/cases/1/hearings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "POST /ui/cases/1/hearings/add HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49669 - "GET /ui/cases/1/hearings?notice=Hearing+notes+captured+and+intelligence+updated. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53946 - "GET /ui/cases/1/hearings?notice=Hearing+notes+captured+and+intelligence+updated. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58867 - "POST /ui/cases/1/hearings/add HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:58867 - "GET /ui/cases/1/hearings?notice=Hearing+notes+captured+and+intelligence+updated. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54836 - "POST /ui/cases/1/hearings/add HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54836 - "GET /ui/cases/1/hearings?notice=Hearing+notes+captured+and+intelligence+updated. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54836 - "GET /static/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63457 - "POST /ui/cases/1/predict HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:63457 - "GET /ui/cases/1/hearings?notice=Outcome+prediction+generated+successfully.&prediction_probability=0.77&prediction_summary=Case+DEL-CIV-2026-0142+shows+a+favorable+outlook+based+on+the+currently+stored+matter+profile.&prediction_risk=Moderate+litigation+risk.+Outcome+depends+on+document+strength%2C+witness+consistency%2C+and+procedural+readiness+for+the+next+hearing. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59195 - "GET /ui/cases/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59195 - "GET /ui/cases/1/research HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52999 - "GET /ui/cases/1/research HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52999 - "POST /ui/cases/1/research HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:52999 - "GET /ui/cases/1/research?notice=Research%20notes%20generated%20successfully. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52999 - "POST /ui/cases/1/research HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:52999 - "GET /ui/cases/1/research?notice=Research%20notes%20generated%20successfully. HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51632 - "GET /ui/cases/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59446 - "GET /ai/research/1 HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:59450 - "POST /ai/research/1 HTTP/1.1" 200 OK

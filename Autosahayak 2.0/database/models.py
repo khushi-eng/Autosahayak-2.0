@@ -48,6 +48,7 @@ class Hearing(Base):
     next_hearing_date: Mapped[datetime | None] = mapped_column(UTCDateTime(), nullable=True)
     notes: Mapped[str] = mapped_column(Text, nullable=False)
     next_action: Mapped[str] = mapped_column(String(255), nullable=False)
+    reminder_sent: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
 
     case: Mapped["Case"] = relationship(back_populates="hearings")
 

@@ -18,4 +18,5 @@ class HearingRead(BaseModel):
     hearing_date: datetime
     notes: str
     next_action: str
+    reminder_sent: bool = False
 

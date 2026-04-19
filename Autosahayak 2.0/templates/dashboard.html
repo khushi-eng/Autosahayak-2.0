@@ -47,4 +47,20 @@
         {% endif %}
     </div>
 </section>
+
+{% if dashboard.hearing_reminders %}
+<section class="card">
+    <h3>⚠️ Hearing Reminders (Next 24 Hours)</h3>
+    <ul class="list">
+        {% for reminder in dashboard.hearing_reminders %}
+        <li>
+            <strong><a href="/ui/cases/{{ reminder.id }}">{{ reminder.case_number }}</a></strong>
+            <span>{{ reminder.court_name }} | {{ reminder.hearing_date.strftime('%Y-%m-%d %H:%M') }}</span>
+            <br>
+            <small>Next Action: {{ reminder.next_action }}</small>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
 {% endblock %}

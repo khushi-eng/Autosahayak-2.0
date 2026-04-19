@@ -253,7 +253,7 @@ def generate_legal_draft(
             )
             
             response = client.responses.create(
-                model="gpt-4.1-mini",
+                model="gpt-4o-mini",
                 input=prompt,
                 max_output_tokens=2048,
                 temperature=0.1,
